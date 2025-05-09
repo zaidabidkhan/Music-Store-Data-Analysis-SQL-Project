@@ -52,7 +52,7 @@ group by  c.first_name, c.last_name, art.name
 order by customer_name, total_spent desc
 ;
 
--- Q2 We want to find out the most popular music genre for each country
+-- Q3 We want to find out the most popular music genre for each country
 -- We determine the most popular genre as the genre with the highest
 -- amount of purchases. Write a query that returns each country along with
 -- top genre. For countries where the maximum number of purchases is shared
